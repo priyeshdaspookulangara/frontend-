@@ -103,7 +103,7 @@ const AdminSettingsPage = () => {
 
       <form onSubmit={handleSaveSettings}>
         <h3>Message Templates</h3>
-        <p>Use placeholders like `{{student_name}}`, `{{class_name}}`, `{{date}}`, `{{absent_count}}`, `{{school_name}}` in templates where applicable.</p>
+        <p>Use placeholders like {'`{{student_name}}`'}, {'`{{class_name}}`'}, {'`{{date}}`'}, {'`{{absent_count}}`'}, {'`{{school_name}}`'} in templates where applicable.</p>
 
         <div className="form-group">
           <label htmlFor="daily_absent_sms_template">Daily Absent SMS Template:</label>
